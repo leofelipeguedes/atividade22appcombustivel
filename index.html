@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Felipe Guedes"
+    <title> </title>
+    <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
+</head>
+<body>
+<!-- <img src="preco-gasolina.jpg" width="300"> -->
+    <header>
+        <div class="container">
+            <h1>App combustível</h1>
+            <hr />
+            <h2 id="result"></h2>
+        </div>
+    </header>
+    <main>
+        <!-- <img src="preco-gasolina.jpg" width="300"> -->
+            <div class="container">
+                <form onsubmit="return false;">
+                    <label>Valor da gasolina:</label><br />
+                    <label>R$: </label>
+                    <input type="text" placeholder="0,00" id="gasolina" onkeydown="verificarInput(event);"><br /><br />
+                    <label>Valor do etanol:</label><br />
+                    <label>R$: </label>
+                    <input type="text" placeholder="0,00" id="etanol" onkeydown="verificarInput(event);"><br /><br />
+                    <button onclick="combustivel();">Calcular</button>
+                </form>
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

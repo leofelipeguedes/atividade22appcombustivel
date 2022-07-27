@@ -1,0 +1,37 @@
+header {
+    left: 100px 50px;
+    right: 50px 100px;
+    border: #16161d;
+    margin-left: auto;
+    margin-top: auto;
+    padding-left: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16161d;
+    background-image: url("preco-gasolina.jpg");
+}
+
+main {
+    margin: 50px;
+    padding-top: 20px;
+    align-items: center;
+    background-image: ("preco-gasolina.jpg");
+}
+
+form {
+    margin: 20px 50px;
+    box-sizing: 20px;  
+}
+
+div {
+    margin-top: auto;
+    border: chartreuse;
+    background: chartreuse;
+    background-image: ("preco-gasolina.jpg");
+}
+
+
+
+
